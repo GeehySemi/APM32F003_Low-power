@@ -1,0 +1,314 @@
+###############################################################################
+#
+# IAR ELF Linker V9.30.1.335/W64 for ARM                  24/Dec/2022  16:06:17
+# Copyright 2007-2022 IAR Systems AB.
+#
+#    Output file  =
+#        D:\桌面文件\21IC & Github帖子资料\APM32F003_Low
+#        power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\Exe\GPIO_Toggle.out
+#    Map file     =
+#        D:\桌面文件\21IC & Github帖子资料\APM32F003_Low
+#        power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\List\GPIO_Toggle.map
+#    Command line =
+#        -f "D:\桌面文件\21IC & Github帖子资料\APM32F003_Low
+#        power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\Exe\GPIO_Toggle.out.rsp"
+#        ("D:\桌面文件\21IC & Github帖子资料\APM32F003_Low
+#        power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\Obj\StdPeriphLib\apm32f00x_adc.o"
+#        "D:\桌面文件\21IC & Github帖子资料\APM32F003_Low
+#        power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\Obj\StdPeriphLib\apm32f00x_buzzer.o"
+#        "D:\桌面文件\21IC & Github帖子资料\APM32F003_Low
+#        power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\Obj\StdPeriphLib\apm32f00x_eint.o"
+#        "D:\桌面文件\21IC & Github帖子资料\APM32F003_Low
+#        power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\Obj\StdPeriphLib\apm32f00x_fmc.o"
+#        "D:\桌面文件\21IC & Github帖子资料\APM32F003_Low
+#        power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\Obj\StdPeriphLib\apm32f00x_gpio.o"
+#        "D:\桌面文件\21IC & Github帖子资料\APM32F003_Low
+#        power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\Obj\StdPeriphLib\apm32f00x_i2c.o"
+#        "D:\桌面文件\21IC & Github帖子资料\APM32F003_Low
+#        power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\Obj\Application\apm32f00x_int.o"
+#        "D:\桌面文件\21IC & Github帖子资料\APM32F003_Low
+#        power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\Obj\StdPeriphLib\apm32f00x_iwdt.o"
+#        "D:\桌面文件\21IC & Github帖子资料\APM32F003_Low
+#        power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\Obj\StdPeriphLib\apm32f00x_misc.o"
+#        "D:\桌面文件\21IC & Github帖子资料\APM32F003_Low
+#        power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\Obj\StdPeriphLib\apm32f00x_rcm.o"
+#        "D:\桌面文件\21IC & Github帖子资料\APM32F003_Low
+#        power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\Obj\StdPeriphLib\apm32f00x_spi.o"
+#        "D:\桌面文件\21IC & Github帖子资料\APM32F003_Low
+#        power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\Obj\StdPeriphLib\apm32f00x_tmr1.o"
+#        "D:\桌面文件\21IC & Github帖子资料\APM32F003_Low
+#        power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\Obj\StdPeriphLib\apm32f00x_tmr2.o"
+#        "D:\桌面文件\21IC & Github帖子资料\APM32F003_Low
+#        power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\Obj\StdPeriphLib\apm32f00x_tmr4.o"
+#        "D:\桌面文件\21IC & Github帖子资料\APM32F003_Low
+#        power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\Obj\StdPeriphLib\apm32f00x_usart.o"
+#        "D:\桌面文件\21IC & Github帖子资料\APM32F003_Low
+#        power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\Obj\StdPeriphLib\apm32f00x_wupt.o"
+#        "D:\桌面文件\21IC & Github帖子资料\APM32F003_Low
+#        power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\Obj\StdPeriphLib\apm32f00x_wwdt.o"
+#        "D:\桌面文件\21IC & Github帖子资料\APM32F003_Low
+#        power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\Obj\Board\Board.o"
+#        "D:\桌面文件\21IC & Github帖子资料\APM32F003_Low
+#        power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\Obj\Application\main.o"
+#        "D:\桌面文件\21IC & Github帖子资料\APM32F003_Low
+#        power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\Obj\CMSIS\startup_apm32f0xx.o"
+#        "D:\桌面文件\21IC & Github帖子资料\APM32F003_Low
+#        power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\Obj\CMSIS\system_apm32f00x.o"
+#        --no_out_extension -o "D:\桌面文件\21IC & Github帖子资料\APM32F003_Low
+#        power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\Exe\GPIO_Toggle.out"
+#        --map "D:\桌面文件\21IC & Github帖子资料\APM32F003_Low
+#        power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\List\GPIO_Toggle.map"
+#        --config "D:\Program Files\IAR Systems\Embedded Workbench
+#        9.1\arm/config/linker/Geehy/apm32f003x6.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale --cpu=Cortex-M0+
+#        --fpu=None)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__CPP_Runtime   = 1
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because --advanced_heap
+was not specified and the application did not appear to
+be primarily optimized for speed.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x7fff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block PROC_STACK with size = 0, alignment = 8 { };
+define block HEAP with size = 1K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'0fff] {
+          rw, block CSTACK, block PROC_STACK, block HEAP };
+
+  Section          Kind         Address   Size  Object
+  -------          ----         -------   ----  ------
+"A0":                                     0xbc
+  .intvec          ro code          0x0   0xbc  startup_apm32f0xx.o [3]
+                                 - 0xbc   0xbc
+
+"P1":                                    0x44a
+  .text            ro code         0xbc   0xc4  apm32f00x_misc.o [4]
+  .text            ro code        0x180   0xbc  system_apm32f00x.o [3]
+  .text            ro code        0x23c   0xac  apm32f00x_eint.o [4]
+  .text            ro code        0x2e8   0x70  main.o [1]
+  .text            ro code        0x358   0x62  apm32f00x_gpio.o [4]
+  .text            ro code        0x3ba   0x3c  zero_init3.o [6]
+  .text            ro code        0x3f6    0x2  startup_apm32f0xx.o [3]
+  .text            ro code        0x3f8   0x2c  apm32f00x_int.o [1]
+  .text            ro code        0x424   0x28  data_init.o [6]
+  .iar.init_table  const          0x44c   0x10  - Linker created -
+  .text            ro code        0x45c   0x1e  cmain.o [6]
+  .text            ro code        0x47a    0x4  low_level_init.o [5]
+  .text            ro code        0x47e    0x8  exit.o [5]
+  .text            ro code        0x486    0x2  startup_apm32f0xx.o [3]
+  .text            ro code        0x488    0xa  cexit.o [6]
+  .text            ro code        0x492    0x2  startup_apm32f0xx.o [3]
+  .text            ro code        0x494   0x14  exit.o [7]
+  .text            ro code        0x4a8   0x1c  startup_apm32f0xx.o [3]
+  .text            ro code        0x4c4   0x1c  cstartup_M.o [6]
+  .text            ro code        0x4e0    0x2  startup_apm32f0xx.o [3]
+  .text            ro code        0x4e2    0x2  startup_apm32f0xx.o [3]
+  .text            ro code        0x4e4    0x2  startup_apm32f0xx.o [3]
+  .text            ro code        0x4e6    0x2  startup_apm32f0xx.o [3]
+  .text            ro code        0x4e8    0x2  startup_apm32f0xx.o [3]
+  .text            ro code        0x4ea    0x2  startup_apm32f0xx.o [3]
+  .text            ro code        0x4ec    0x2  startup_apm32f0xx.o [3]
+  .text            ro code        0x4ee    0x2  startup_apm32f0xx.o [3]
+  .text            ro code        0x4f0    0x2  startup_apm32f0xx.o [3]
+  .text            ro code        0x4f2    0x2  startup_apm32f0xx.o [3]
+  .text            ro code        0x4f4    0x2  startup_apm32f0xx.o [3]
+  .text            ro code        0x4f6    0x2  startup_apm32f0xx.o [3]
+  .text            ro code        0x4f8    0x2  startup_apm32f0xx.o [3]
+  .text            ro code        0x4fa    0x2  startup_apm32f0xx.o [3]
+  .text            ro code        0x4fc    0x2  startup_apm32f0xx.o [3]
+  .text            ro code        0x4fe    0x2  startup_apm32f0xx.o [3]
+  .text            ro code        0x500    0x2  startup_apm32f0xx.o [3]
+  .text            ro code        0x502    0x2  startup_apm32f0xx.o [3]
+  .text            ro code        0x504    0x2  startup_apm32f0xx.o [3]
+  .rodata          const          0x506    0x0  zero_init3.o [6]
+                                - 0x506  0x44a
+
+"P2", part 1 of 2:                         0x4
+  .bss             zero     0x2000'0000    0x4  apm32f00x_int.o [1]
+                          - 0x2000'0004    0x4
+
+"P2", part 2 of 2:                       0x400
+  CSTACK                    0x2000'0008  0x400  <Block>
+    CSTACK         uninit   0x2000'0008  0x400  <Block tail>
+                          - 0x2000'0408  0x400
+
+Unused ranges:
+
+         From           To    Size
+         ----           --    ----
+        0x506       0x7fff  0x7afa
+  0x2000'0004  0x2000'0007     0x4
+  0x2000'0408  0x2000'0fff   0xbf8
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x4:
+          0x2000'0000   0x4
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module               ro code  ro data  rw data
+    ------               -------  -------  -------
+command line/config:
+    ----------------------------------------------
+    Total:
+
+D:\桌面文件\21IC & Github帖子资料\APM32F003_Low power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\Obj\Application: [1]
+    apm32f00x_int.o           44                 4
+    main.o                   112
+    ----------------------------------------------
+    Total:                   156                 4
+
+D:\桌面文件\21IC & Github帖子资料\APM32F003_Low power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\Obj\Board: [2]
+    ----------------------------------------------
+    Total:
+
+D:\桌面文件\21IC & Github帖子资料\APM32F003_Low power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\Obj\CMSIS: [3]
+    startup_apm32f0xx.o      260
+    system_apm32f00x.o       188
+    ----------------------------------------------
+    Total:                   448
+
+D:\桌面文件\21IC & Github帖子资料\APM32F003_Low power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\Obj\StdPeriphLib: [4]
+    apm32f00x_eint.o         172
+    apm32f00x_gpio.o          98
+    apm32f00x_misc.o         196
+    ----------------------------------------------
+    Total:                   466
+
+dl6M_tln.a: [5]
+    exit.o                     8
+    low_level_init.o           4
+    ----------------------------------------------
+    Total:                    12
+
+rt6M_tl.a: [6]
+    cexit.o                   10
+    cmain.o                   30
+    cstartup_M.o              28
+    data_init.o               40
+    zero_init3.o              60
+    ----------------------------------------------
+    Total:                   168
+
+shb_l.a: [7]
+    exit.o                    20
+    ----------------------------------------------
+    Total:                    20
+
+    Linker created                     16    1'024
+--------------------------------------------------
+    Grand Total:           1'270       16    1'028
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address  Size  Type      Object
+-----                       -------  ----  ----      ------
+.iar.init_table$$Base         0x44c         --   Gb  - Linker created -
+.iar.init_table$$Limit        0x45c         --   Gb  - Linker created -
+?main                         0x45d        Code  Gb  cmain.o [6]
+ADC_IRQHandler                0x4f5        Code  Wk  startup_apm32f0xx.o [3]
+CSTACK$$Base            0x2000'0008         --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'0408         --   Gb  - Linker created -
+ConfigMasterClock             0x1cd   0x8  Code  Lc  system_apm32f00x.o [3]
+EINTA_IRQHandler              0x493        Code  Wk  startup_apm32f0xx.o [3]
+EINTB_IRQHandler              0x4e1        Code  Wk  startup_apm32f0xx.o [3]
+EINTC_IRQHandler              0x4e3        Code  Wk  startup_apm32f0xx.o [3]
+EINTD_IRQHandler              0x403  0x1c  Code  Gb  apm32f00x_int.o [1]
+EINT_ClearIntFlag             0x2d1   0xa  Code  Gb  apm32f00x_eint.o [4]
+EINT_Config                   0x23d  0x94  Code  Gb  apm32f00x_eint.o [4]
+FLASH_IRQHandler              0x4f9        Code  Wk  startup_apm32f0xx.o [3]
+GPIO_Config                   0x359  0x62  Code  Gb  apm32f00x_gpio.o [4]
+HardFault_Handler             0x3fb   0x2  Code  Gb  apm32f00x_int.o [1]
+IIC_IRQHandler                0x4f3        Code  Wk  startup_apm32f0xx.o [3]
+MasterClock24M                0x1d5  0x32  Code  Lc  system_apm32f00x.o [3]
+NMI_Handler                   0x3f9   0x2  Code  Gb  apm32f00x_int.o [1]
+NVIC_EnableIRQRequest         0x147  0x18  Code  Gb  apm32f00x_misc.o [4]
+PMU_EnterHaltModeWFI          0x15f  0x12  Code  Gb  apm32f00x_misc.o [4]
+PendSV_Handler                0x3ff   0x2  Code  Gb  apm32f00x_int.o [1]
+RCM_IRQHandler                0x487        Code  Wk  startup_apm32f0xx.o [3]
+Region$$Table$$Base           0x44c         --   Gb  - Linker created -
+Region$$Table$$Limit          0x45c         --   Gb  - Linker created -
+Reset_Handler                 0x4a9        Code  Wk  startup_apm32f0xx.o [3]
+SPI_IRQHandler                0x4e5        Code  Wk  startup_apm32f0xx.o [3]
+SVC_Handler                   0x3fd   0x2  Code  Gb  apm32f00x_int.o [1]
+Sleepflag               0x2000'0000   0x4  Data  Gb  apm32f00x_int.o [1]
+SysTick_Handler               0x401   0x2  Code  Gb  apm32f00x_int.o [1]
+SystemInit                    0x181  0x4c  Code  Gb  system_apm32f00x.o [3]
+TMR1A_CC_IRQHandler           0x505        Code  Wk  startup_apm32f0xx.o [3]
+TMR1A_UT_IRQHandler           0x503        Code  Wk  startup_apm32f0xx.o [3]
+TMR1_CC_IRQHandler            0x4e9        Code  Wk  startup_apm32f0xx.o [3]
+TMR1_UT_IRQHandler            0x4e7        Code  Wk  startup_apm32f0xx.o [3]
+TMR2_CC_IRQHandler            0x4ed        Code  Wk  startup_apm32f0xx.o [3]
+TMR2_UO_IRQHandler            0x4eb        Code  Wk  startup_apm32f0xx.o [3]
+TMR4_IRQHandler               0x4f7        Code  Wk  startup_apm32f0xx.o [3]
+USART1_RX_IRQHandler          0x4f1        Code  Wk  startup_apm32f0xx.o [3]
+USART1_TX_IRQHandler          0x4ef        Code  Wk  startup_apm32f0xx.o [3]
+USART2_RX_IRQHandler          0x501        Code  Wk  startup_apm32f0xx.o [3]
+USART2_TX_IRQHandler          0x4ff        Code  Wk  startup_apm32f0xx.o [3]
+USART3_RX_IRQHandler          0x4fd        Code  Wk  startup_apm32f0xx.o [3]
+USART3_TX_IRQHandler          0x4fb        Code  Wk  startup_apm32f0xx.o [3]
+WUPT_IRQHandler               0x3f7        Code  Wk  startup_apm32f0xx.o [3]
+__NVIC_EnableIRQ               0xbd  0x18  Code  Lc  apm32f00x_misc.o [4]
+__NVIC_SetPriority             0xd5  0x72  Code  Lc  apm32f00x_misc.o [4]
+__cmain                       0x45d        Code  Gb  cmain.o [6]
+__exit                        0x495  0x14  Code  Gb  exit.o [7]
+__iar_data_init3              0x425  0x28  Code  Gb  data_init.o [6]
+__iar_program_start           0x4c5        Code  Gb  cstartup_M.o [6]
+__iar_zero_init3              0x3bb  0x3c  Code  Gb  zero_init3.o [6]
+__low_level_init              0x47b   0x4  Code  Gb  low_level_init.o [5]
+__vector_table                  0x0        Data  Gb  startup_apm32f0xx.o [3]
+_call_main                    0x469        Code  Gb  cmain.o [6]
+_exit                         0x489        Code  Gb  cexit.o [6]
+exit                          0x47f   0x8  Code  Gb  exit.o [5]
+main                          0x2e9  0x70  Code  Gb  main.o [1]
+
+
+[1] = D:\桌面文件\21IC & Github帖子资料\APM32F003_Low power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\Obj\Application
+[2] = D:\桌面文件\21IC & Github帖子资料\APM32F003_Low power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\Obj\Board
+[3] = D:\桌面文件\21IC & Github帖子资料\APM32F003_Low power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\Obj\CMSIS
+[4] = D:\桌面文件\21IC & Github帖子资料\APM32F003_Low power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\Obj\StdPeriphLib
+[5] = dl6M_tln.a
+[6] = rt6M_tl.a
+[7] = shb_l.a
+
+  1'270 bytes of readonly  code memory
+     16 bytes of readonly  data memory
+  1'028 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

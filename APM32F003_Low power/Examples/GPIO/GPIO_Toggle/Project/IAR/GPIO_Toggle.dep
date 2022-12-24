@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>5</fileVersion>
+    <fileChecksum>1054232187</fileChecksum>
+    <configuration>
+        <name>APM32F003</name>
+        <outputs>
+            <file>$PROJ_DIR$\APM32F003\Obj\Board\Board.o</file>
+            <file>$PROJ_DIR$\APM32F003\Obj\Application\apm32f00x_int.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\src\apm32f00x_iwdt.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\src\apm32f00x_misc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\src\apm32f00x_spi.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\src\apm32f00x_adc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\src\apm32f00x_fmc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\src\apm32f00x_usart.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\src\apm32f00x_wupt.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\src\apm32f00x_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\src\apm32f00x_tmr2.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\src\apm32f00x_tmr4.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\src\apm32f00x_wwdt.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\Device\Geehy\APM32F00x\Source\iar\startup_apm32f0xx.s</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\Device\Geehy\APM32F00x\Source\system_apm32f00x.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\src\apm32f00x_buzzer.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\src\apm32f00x_rcm.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\src\apm32f00x_tmr1.c</file>
+            <file>$PROJ_DIR$\APM32F003\Obj\Application\main.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Board\Board.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\src\apm32f00x_eint.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\src\apm32f00x_i2c.c</file>
+            <file>$PROJ_DIR$\..\..\Source\apm32f00x_int.c</file>
+            <file>$PROJ_DIR$\..\..\Source\main.c</file>
+            <file>$PROJ_DIR$\APM32F003\Obj\StdPeriphLib\apm32f00x_buzzer.o</file>
+            <file>$PROJ_DIR$\APM32F003\Obj\StdPeriphLib\apm32f00x_tmr4.o</file>
+            <file>$PROJ_DIR$\APM32F003\Obj\StdPeriphLib\apm32f00x_iwdt.o</file>
+            <file>$PROJ_DIR$\APM32F003\Obj\StdPeriphLib\apm32f00x_usart.o</file>
+            <file>$PROJ_DIR$\APM32F003\Obj\StdPeriphLib\apm32f00x_i2c.o</file>
+            <file>$PROJ_DIR$\APM32F003\Obj\StdPeriphLib\apm32f00x_rcm.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\APM32F003\Obj\CMSIS\system_apm32f00x.o</file>
+            <file>$PROJ_DIR$\APM32F003\Obj\StdPeriphLib\apm32f00x_tmr1.o</file>
+            <file>$PROJ_DIR$\APM32F003\Obj\StdPeriphLib\apm32f00x_gpio.o</file>
+            <file>$PROJ_DIR$\APM32F003\Obj\StdPeriphLib\apm32f00x_eint.o</file>
+            <file>$PROJ_DIR$\APM32F003\Obj\StdPeriphLib\apm32f00x_wwdt.o</file>
+            <file>$PROJ_DIR$\APM32F003\Obj\StdPeriphLib\apm32f00x_misc.o</file>
+            <file>$PROJ_DIR$\APM32F003\Obj\StdPeriphLib\apm32f00x_adc.o</file>
+            <file>$PROJ_DIR$\APM32F003\Obj\StdPeriphLib\apm32f00x_tmr2.o</file>
+            <file>$PROJ_DIR$\APM32F003\Obj\StdPeriphLib\apm32f00x_wupt.o</file>
+            <file>$PROJ_DIR$\APM32F003\Obj\StdPeriphLib\apm32f00x_fmc.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\APM32F003\Obj\StdPeriphLib\apm32f00x_spi.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\APM32F003\Obj\CMSIS\startup_apm32f0xx.o</file>
+            <file>$PROJ_DIR$\APM32F003\Exe\GPIO_Toggle.out</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\inc\apm32f00x_wupt.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
+            <file>$TOOLKIT_DIR$\config\linker\Geehy\apm32f003x6.icf</file>
+            <file>$PROJ_DIR$\APM32F003\List\GPIO_Toggle.map</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\inc\apm32f00x_wwdt.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\inc\apm32f00x_usart.h</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Include\cmsis_version.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Include\cmsis_compiler.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\inc\apm32f00x_eint.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\inc\apm32f00x_misc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Board\Board_APM32F003_MINI\Board_APM32F003_MINI.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\inc\apm32f00x_spi.h</file>
+            <file>$PROJ_DIR$\..\..\Include\apm32f00x_int.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\inc\apm32f00x_rcm.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Board\Board.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Board\Board_APM32F003_MINI\Board_APM32F003_MINI.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\inc\apm32f00x_tmr1.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\inc\apm32f00x_tmr2.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\inc\apm32f00x_tmr4.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\inc\apm32f00x_i2c.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\inc\apm32f00x_buzzer.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Include\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\inc\apm32f00x_iwdt.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\inc\apm32f00x_fmc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\inc\apm32f00x_adc.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\iccarm_builtin.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Include\core_cm0plus.h</file>
+            <file>$PROJ_DIR$\..\..\Include\main.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\inc\apm32f00x_gpio.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\Device\Geehy\APM32F00x\Include\apm32f00x.h</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\src\apm32f00x_iwdt.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 73 81 78 77 41 43 30 55 58 56 57 72 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\src\apm32f00x_misc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60 81 78 77 41 43 30 55 58 56 57 72 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\src\apm32f00x_spi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62 81 78 77 41 43 30 55 58 56 57 72 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\src\apm32f00x_adc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 37</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 75 81 78 77 41 43 30 55 58 56 57 72 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\src\apm32f00x_fmc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 40</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 74 81 78 77 41 43 30 55 58 56 57 72 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\src\apm32f00x_usart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 27</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52 81 78 77 41 43 30 55 58 56 57 72 76 64</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\src\apm32f00x_wupt.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 46 81 78 77 41 43 30 55 58 56 57 72 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\src\apm32f00x_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 33</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 80 81 78 77 41 43 30 55 58 56 57 72 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\src\apm32f00x_tmr2.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 68 81 78 77 41 43 30 55 58 56 57 72 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\src\apm32f00x_tmr4.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 25</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 69 81 78 77 41 43 30 55 58 56 57 72 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\src\apm32f00x_wwdt.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 35</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 50 81 78 77 41 43 30 55 58 56 57 72 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\Device\Geehy\APM32F00x\Source\iar\startup_apm32f0xx.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 44</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\Device\Geehy\APM32F00x\Source\system_apm32f00x.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 81 78 77 41 43 30 55 58 56 57 72 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\src\apm32f00x_buzzer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 24</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 71 81 78 77 41 43 30 55 58 56 57 72 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\src\apm32f00x_rcm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 29</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 64 81 78 77 41 43 30 55 58 56 57 72 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\src\apm32f00x_tmr1.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 32</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 67 81 78 77 41 43 30 55 58 56 57 72 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Board\Board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 0</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 65 66 81 78 77 41 43 30 55 58 56 57 72 76 61 80 59</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\src\apm32f00x_eint.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 34</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59 81 78 77 41 43 30 55 58 56 57 72 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\APM32F00x_StdPeriphDriver\src\apm32f00x_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 70 81 78 77 41 43 30 55 58 56 57 72 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 45 49</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Source\apm32f00x_int.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 1</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 63 81 78 77 41 43 30 55 58 56 57 72 76 59 80 69 60</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Source\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 79 80 81 78 77 41 43 30 55 58 56 57 72 76 59 60</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\APM32F003\Exe\GPIO_Toggle.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 49</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 48 37 24 34 40 33 28 1 26 36 29 42 32 38 25 27 39 35 0 18 44 31 53 51 54 47</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+</project>

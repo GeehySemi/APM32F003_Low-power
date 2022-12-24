@@ -1,0 +1,15 @@
+"D:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\bin\armPROC.dll" 
+
+"D:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\bin\armSTLINK.dll" 
+
+"D:\桌面文件\21IC & Github帖子资料\APM32F003_Low power\APM32F00x_SDK_v1.3\Examples\GPIO\GPIO_Toggle\Project\IAR\APM32F003\Exe\GPIO_Toggle.out" 
+
+--plugin="D:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\bin\armbat.dll" 
+
+--device_macro="D:\Program Files\IAR Systems\Embedded Workbench 9.1\arm/config/debugger/Geehy/APM32F00x.dmac" 
+
+--flash_loader="D:\Program Files\IAR Systems\Embedded Workbench 9.1\arm/config/flashloader/Geehy/FlashAPM32F003x6.board" 
+
+
+
+
