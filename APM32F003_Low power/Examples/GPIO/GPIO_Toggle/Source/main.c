@@ -14,6 +14,7 @@ int main(void)
     GPIO_Config(GPIOA, &gpioConfig);							
     GPIO_Config(GPIOB, &gpioConfig);					
     GPIO_Config(GPIOC, &gpioConfig);	
+    gpioConfig.pin = ((uint8_t)0XF9); 
     GPIO_Config(GPIOD, &gpioConfig);	
 	
 //KEY1 PD6
